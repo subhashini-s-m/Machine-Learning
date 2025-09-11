@@ -36,4 +36,25 @@ To understand and implement Logistic Regression models for binary and multiclass
   Predicts the category of product a customer is likely to purchase based on demographic and transactional features using multinomial logistic regression.  
   Dataset: [Kaggle - Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
 
+### Activity 5: Support Vector Machines
+
+**Aim:**  
+To apply Support Vector Machine (SVM) classification for identifying patterns in datasets such as spam emails or quadratic relationships, and to evaluate the models using metrics like accuracy and confusion matrix.
+
+**Activities Done:**
+- **Diabetes Classification:**  
+  Predicted whether a person has **diabetes** based on medical features such as **Pregnancies, Glucose, Blood Pressure, Skin Thickness, Insulin, BMI, Diabetes Pedigree Function, and Age**.  
+  Steps: preprocessing, train-test split, model training, tree visualization, accuracy & confusion matrix.  
+  **Dataset:** [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) 
+
+- **Email Spam Classification:**  
+  Classified whether an email is **spam or not spam** based on features like **word frequencies (e.g., ‘the’, ‘to’, ‘and’, etc.)** and **message structure attributes**.  
+  Steps: data exploration, feature-target separation, train-test split, model training with linear kernel, prediction, accuracy evaluation, and confusion matrix visualization.  
+  **Dataset:** [Email Spam Classification Dataset CSV](https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv)
+
+- **Quadratic Distribution Classification:**  
+  Classified points as belonging to one of two classes based on a **quadratic boundary** defined by formulas like **x₁² + x₂² < threshold**.  
+  Steps: generating random data points, labeling based on quadratic condition, train-test split, model training with polynomial kernel, prediction, accuracy evaluation, and decision boundary visualization.  
+  **Dataset:** Synthetic dataset generated using Python (features: **x₁, x₂**, labels based on quadratic relationship).
+
 
